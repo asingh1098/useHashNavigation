@@ -9,11 +9,21 @@
   },
   "author": "Apoorv Singh",
   "license": "MIT",
-  "keywords": ["React", "hook", "hash navigation", "URL"],
+  "keywords": [
+    "React",
+    "hook",
+    "hash navigation",
+    "URL"
+  ],
   "scripts": {
     "test": "cypress run"
   },
   "peerDependencies": {
     "react": "^17 || ^18"
+  },
+  "devDependencies": {
+    "@cypress/react": "^8.0.2",
+    "@cypress/webpack-dev-server": "^3.11.0",
+    "cypress": "^13.15.2"
   }
 }
