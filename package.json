@@ -1,0 +1,19 @@
+{
+  "name": "use-hash-navigation",
+  "version": "1.0.0",
+  "description": "A React hook for managing URL hash-based navigation",
+  "main": "src/hooks/useHashNavigation.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asingh1098/useHashNavigation.git"
+  },
+  "author": "Apoorv Singh",
+  "license": "MIT",
+  "keywords": ["React", "hook", "hash navigation", "URL"],
+  "scripts": {
+    "test": "cypress run"
+  },
+  "peerDependencies": {
+    "react": "^17 || ^18"
+  }
+}
